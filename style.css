@@ -112,7 +112,7 @@
 } */
 
 /* Flappy Penguin */
-:root {
+/* :root {
   --penguin-face: white;
   --penguin-picorna: orange;
   --penguin-skin: gray;
@@ -385,4 +385,29 @@ body {
   border-radius: 50%;
   top: -75px;
   right: -75px;
+} */
+
+/* Personal Portfolio */
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
